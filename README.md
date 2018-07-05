@@ -1,2 +1,0 @@
-# myazuretestrepos
-test
