@@ -3,4 +3,4 @@ $azurePassword = ConvertTo-SecureString "xC+iDTZ+iBxFisXpHU5nDpmLgX1PTmHlbYtDOdP
 $psCred = New-Object System.Management.Automation.PSCredential($azureAccountName, $azurePassword) 
 #Login-AzureRmAccount -C -Credential $psCred
 Add-AzureRmAccount -Credential $psCred -TenantId d790955c-7903-4754-842b-32503d9b6edb -ServicePrincipal
-Get-azureRmADApplication
+Get-AzureRmADApplication
